@@ -83,8 +83,8 @@ const Quiz = () => {
   
     return (
       <div>
-        <h2>State Capitals Quiz</h2> 
-        <div className="container">     
+        <div className="container">    
+        <h2>State Capitals Quiz</h2>  
             {(!quizStarted & !showResult) ? (
             <button className="btn-start" onClick={startQuiz}>Start</button>
             ) :

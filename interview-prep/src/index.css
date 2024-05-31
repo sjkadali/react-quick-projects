@@ -1,43 +1,31 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  font-family: "Verdana", cursive, sans-serif;
-  color: #ffffff;
-}
-
-body {
   background-color: #76a29f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .app {
-  background-color: #252d4a;
-  width: 450px;
-  min-height: 200px;
-  height: min-content;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
+}
+
+.container {
+  background-color: #a8d7bf; 
+  height: 600px;
+  width: 600px; 
+  align-items: center;
+  justify-content: center;
 }
 
 .score-section {
   display: flex;
-  background-color: #03490a;
+  width: 200px;
+  height: 200px;
+  background-color: #468c2c;
+  color: #ffffff;
   font-size: 24px;
   align-items: center;
   padding: 20px;
-  margin: 20px;
+  margin: 200px;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
@@ -74,7 +62,7 @@ body {
 }
 
 button {
-  width: 100%;
+  width: 70%;
   font-size: 16px;
   color: #ffffff;
   background-color: #045657;
@@ -89,9 +77,9 @@ button {
 }
 
 .btn-start {
-  background-color: #2f922f;
+  background-color: #0f390f;
   width: 30%;
-  margin: auto;
+  margin: 20px;
   justify-content: center;
   border: none;
 }
@@ -106,11 +94,12 @@ button {
 
 
 .btn-try-again {
-  background-color: #254a49;
-  width: 40%;
-  margin: 20px;
+  background-color: #023605;
+  width: 50px;
+  margin: 30px;
   justify-content: center;
-}
+  border: none;
+  }
 
 button:hover {
   background-color: #555e7d;

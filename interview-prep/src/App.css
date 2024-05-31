@@ -1,0 +1,38 @@
+/* .container {
+  width: 800px;
+  margin: 50px;
+  padding: 10px;
+  display:inline-table;
+} */
+
+/* .button { 
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(90deg,#fff000,#000fff, #fff000);
+  background-size: 200% ;
+  background-position: left;  
+  transition: 300ms background-position ease-in-out;
+}
+
+button{
+  text-decoration: none;
+  padding: 1em 2.5em;   
+  border-radius: 0.25em;  
+  background-image: linear-gradient(75deg, #FDC830, #F37335, #f12711, #f5af19); 
+  background-size: 300% ;
+  background-position: left;
+  
+  transition: 300ms background-position ease-in-out;
+  
+}
+button:hover{
+  background-position: right; 
+}
+
+
+.button:hover{
+  background-position: right;
+} */

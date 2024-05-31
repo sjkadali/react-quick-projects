@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+.wrapper button {
+    display: top;
+    margin: 5px 30px;
+    background-color: rgb(2, 54, 36);
+    color: #ffffff;
+    justify-content: center;
+    width: 100px;    
+}
+
+.accordian {
+    width: 400px;    
+}
+
+.item {
+    background: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answer {
+    color: antiquewhite;
+    height: auto;
+}
